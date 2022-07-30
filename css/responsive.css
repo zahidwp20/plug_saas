@@ -1,0 +1,112 @@
+
+@media (max-width: 1000px) {
+    .header-area.sticky .main-menu ul {
+        top: 75px;
+    }
+    .menu-btn {
+        display: flex;
+        float: right;
+    }
+
+    .menu-btn.open ~ ul {
+        left: 0;
+        display: block;
+    }
+    .main-nav ul {
+        position: fixed;
+        top: 95px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+    .main-nav ul li a {
+        width: 100%;
+        margin-left: -100%;
+        display: block;
+        font-size: 20px;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .menu-btn.open ~ ul li a {
+        margin-left: 0;
+    }
+    .main-nav ul li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-nav ul li:hover a:before,
+    .main-nav ul li.active a:before {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+    }
+    .app-img-wrap {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .footer-main-menu .email-subs-form input[type="submit"] {
+        margin-left: 0;
+    }
+    .footer-menu ul li a {
+        margin-bottom: 20px;
+    }
+    /*-- sub-menu --*/
+    /*.main-nav ul .sub-menu {*/
+    /*    position: initial;*/
+    /*    left: initial;*/
+    /*    top: initial;*/
+    /*    opacity: 1;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.main-nav ul .sub-menu li .sub-menu.second-sub {*/
+    /*    position: initial;*/
+    /*    left: initial;*/
+    /*    top: initial;*/
+    /*    opacity: 1;*/
+    /*    width: 100%;*/
+    /*}*/
+    .main-nav .sub-menu, .main-nav .sub-menu.second-sub {
+        position: static;
+        top: initial;
+        left: initial;
+        transform: initial;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        width: 100%;
+        padding: 0;
+        background-color: #3183ac;
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    .single-counter-item {
+        margin-bottom: 30px;
+    }
+    .single-team-item {
+        margin-bottom: 30px;
+    }
+    .features-section .single-product-quality-item {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+@media (min-width: 1400px) {
+
+}

@@ -1,0 +1,23 @@
+<svg id="bar-chart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.135" height="65.621" viewBox="0 0 62.135 65.621">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#391168"/>
+      <stop offset="1" stop-color="#c471ed"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_192" data-name="Group 192" transform="translate(0 18.796)">
+    <g id="Group_191" data-name="Group 191">
+      <path id="Path_632" data-name="Path 632" d="M74.454,190.916H71.643V150.1a3.449,3.449,0,0,0-3.445-3.445H61.915a3.449,3.449,0,0,0-3.445,3.445v40.816H51.331V168.592a3.449,3.449,0,0,0-3.445-3.445H41.6a3.449,3.449,0,0,0-3.445,3.445v22.323H31.019V179.355a3.449,3.449,0,0,0-3.445-3.445H21.291a3.449,3.449,0,0,0-3.445,3.445v11.561H14.883a1.282,1.282,0,1,0,0,2.563H74.454a1.282,1.282,0,0,0,0-2.563Zm-46,0H20.409V179.355a.883.883,0,0,1,.882-.882h6.283a.883.883,0,0,1,.882.882v11.561Zm20.312,0H40.721V168.592a.883.883,0,0,1,.882-.882h6.283a.883.883,0,0,1,.882.882Zm20.312,0H61.032V150.1a.883.883,0,0,1,.882-.882H68.2a.883.883,0,0,1,.882.882v40.816Z" transform="translate(-13.601 -146.654)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_194" data-name="Group 194" transform="translate(10.99)">
+    <g id="Group_193" data-name="Group 193">
+      <path id="Path_633" data-name="Path 633" d="M146.4,1.348A1.277,1.277,0,0,0,145.051,0c-.021,0-.041,0-.062,0h-7.754a1.282,1.282,0,1,0,0,2.563h4.788l-12.67,12.67-4.778-4.778a1.282,1.282,0,0,0-1.813,0L99.722,33.5a1.282,1.282,0,0,0,1.813,1.812l22.134-22.134,4.778,4.778a1.282,1.282,0,0,0,1.813,0L143.835,4.376V8.709a1.282,1.282,0,1,0,2.563,0V1.41C146.4,1.389,146.4,1.369,146.4,1.348Z" transform="translate(-99.346)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_196" data-name="Group 196" transform="translate(6.67 37.593)">
+    <g id="Group_195" data-name="Group 195">
+      <circle id="Ellipse_311" data-name="Ellipse 311" cx="1.282" cy="1.282" r="1.282" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
